@@ -1,0 +1,6 @@
+interface:
+  display_name: "Personal SCI Writing"
+  short_description: "Personal English SCI prose with configurable style checks"
+  default_prompt: "Use $personal-sci-writing to draft or revise this manuscript section in my personal academic style."
+policy:
+  allow_implicit_invocation: true

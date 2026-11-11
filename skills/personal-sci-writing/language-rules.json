@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "origin": "Explicit personal writing preferences. Historical evidence does not override these rules.",
+  "banned_expressions": [
+    "which",
+    "while",
+    "i.e.",
+    "namely",
+    "due to",
+    "associated with",
+    "corresponds"
+  ],
+  "first_person": [
+    "we",
+    "our",
+    "us"
+  ],
+  "banned_punctuation": [
+    ";"
+  ],
+  "max_sentence_words": 45,
+  "repeated_opening_words": 5,
+  "repeated_opening_threshold": 3,
+  "soft_expressions": [],
+  "prefer_passive": true,
+  "allowed_literal_spans": [],
+  "exclude_quoted_strings": true,
+  "notes": "Soft sentence-length and repetition thresholds are editing heuristics, not inferred personal laws. Passive voice, meaning, citations and argument quality require human/LLM review. allowed_literal_spans exempts exact case-sensitive names or protected quotations only."
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "T01",
+    "function": "problem",
+    "template": "The {specific problem} is addressed for {system} under {conditions}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T02",
+    "function": "problem",
+    "template": "This paper investigates {specific problem} under {conditions}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T03",
+    "function": "method",
+    "template": "A {method} is proposed to {specific objective}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T04",
+    "function": "method",
+    "template": "A {method} is developed using {available information}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T05",
+    "function": "method",
+    "template": "The {observer/controller} is designed to {specific purpose}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T06",
+    "function": "method",
+    "template": "The {control laws} are learned using {data and algorithm}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T07",
+    "function": "method",
+    "template": "The {original problem} is reformulated as {new problem}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T08",
+    "function": "theory",
+    "template": "A {specific relation} is derived under {assumptions}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T09",
+    "function": "theory",
+    "template": "The {specific property} is guaranteed under {conditions}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T10",
+    "function": "theory",
+    "template": "The {specific property} is proven under {conditions}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T11",
+    "function": "literature",
+    "template": "In {citation}, a {method} was developed for {setting}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T12",
+    "function": "comparison",
+    "template": "The {capability} is established. But, the methods in {verified citations} required {specific assumption}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T13",
+    "function": "comparison",
+    "template": "The {result} is derived. In contrast, the methods in {verified citations} considered {different scope}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T14",
+    "function": "comparison",
+    "template": "The {capability} is achieved. Note that {verified limitation of the cited methods}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T15",
+    "function": "gap",
+    "template": "The {specific unresolved problem} remains challenging under {conditions}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T16",
+    "function": "validation",
+    "template": "Simulation results demonstrate {supported finding}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T17",
+    "function": "validation",
+    "template": "Experimental results validate {specific supported capability}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T18",
+    "function": "roadmap",
+    "template": "The remainder of this paper is organized as follows.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T19",
+    "function": "condition",
+    "template": "Under {explicit conditions}, {scoped property} is established.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T20",
+    "function": "constraint",
+    "template": "The {system} is subject to {specific physical constraint}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T21",
+    "function": "causality",
+    "template": "The {effect} occurs owing to {supported cause}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T22",
+    "function": "causality",
+    "template": "The {effect} occurs because of {supported cause}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T23",
+    "function": "model",
+    "template": "The dynamics of {system} are given by {equation}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T24",
+    "function": "proof",
+    "template": "Consider the following Lyapunov function: {formula}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T25",
+    "function": "proof",
+    "template": "Fix an arbitrary {quantity} in {domain}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T26",
+    "function": "proof",
+    "template": "The proof is completed.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T27",
+    "function": "proof",
+    "template": "Differentiating {equation} and using {relations} yield {deduction}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T28",
+    "function": "results",
+    "template": "In Fig. {number}, {measured convergence} is achieved within {reported iterations}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T29",
+    "function": "results",
+    "template": "A comparative study is conducted using {baseline} with the same experimental setup.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  },
+  {
+    "id": "T30",
+    "function": "conclusion",
+    "template": "The {proved property} is guaranteed under {conditions}.",
+    "usage": "Adapt only to supplied facts. Braces identify editable slots, not finished manuscript text."
+  }
+]

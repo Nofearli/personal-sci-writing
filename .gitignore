@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.pdf
+*.zip
+*.log
+corpus/
+papers/
+training-evidence.json
+voice-annotations.json
