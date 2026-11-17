@@ -1,9 +1,33 @@
 # Style profile and provenance
 
-This profile was derived from a user-authorized local collection. Fourteen PDF files were grouped into thirteen independent paper groups to avoid double-counting a version. Twelve groups were used to develop the profile and one was held out. The source collection and original evidence remain private.
+## 数据来源
 
-Within this collection, Introductions commonly organize literature by technical problem, move to a method overview, state explicit contributions and finish with a roadmap. Contribution items favor the present work's capability before a concrete comparison. The number of contributions varies. Abstracts vary in length and include both problem-first and method-first openings.
+个人风格基线与组内量化统计来自**同一批语料**：`~/桌面/课题组论文整理/latex_converted/` 下 13 篇重建稿中的 **12 篇 IEEE 期刊稿**（01–10、12–14），排除 Elsevier 的 `11_ast2026_robust_optimal_fixedwing`（单栏 pre-proof，行文体系不同）。
 
-These are within-collection observations. They do not establish a uniquely identifiable author signature or universal academic rules. Coauthorship, subject matter and editorial intervention can affect wording. The public templates are synthesized structures, not quotations from the source collection. Use newly supplied scientific facts to fill them.
+- 体量：约 78,000 词正文、3,020 句。
+- 统计口径：剔除 `%` 注释、公式环境、`\cite`/`\ref`、排版命令；按 `[.!?]` + 大写字母切句；只保留 4–120 词的句子。
+- 环境计数：`\mathcal` 1,235、`\mathbf` 975、`\|` 673、`\mathrm` 465、`\bm` 300、equation 294、aligned 114、theorem 21、remark 20、lemma 10、IEEEproof 33。
 
-Current lexical bans and preference for passive/impersonal prose are explicit user instructions. Historical usage does not override them. Sentence-length and repetition limits are configurable editing heuristics, not learned laws. Do not claim exact provenance or new empirical support beyond the evidence available in the current task.
+## 两层规则，优先级明确
+
+| 层 | 内容 | 来源 | 优先级 |
+|---|---|---|---|
+| **个人硬规则** | 禁用词、禁用分号、无第一人称、偏好被动、单句 ≤45 词 | `language-rules.json`（用户明确指令） | **最高，覆盖历史用量** |
+| **组内风格层** | 句长基线、段落 moves、符号与公式写法、LaTeX 版式、自查清单 | 12 篇语料的实测统计与原句 | 仅在不违反硬规则时适用 |
+
+**冲突处理**：语料里存在 `which`、`due to`、`i.e.`、`associated with`、`corresponds`、分号等用法——这些是**历史用法**，不构成本次写作的许可。命中冲突时按 `language.md` 的重写策略重构句子。
+
+## 组内观察（描述性，不是规则）
+
+- Introductions 常按技术问题聚类文献 → 方法总览 → 明确贡献 → 路线图；贡献条目偏好"先讲本文能力，再给具体对比"。
+- Abstracts 长度可变，问题优先与方法优先两种开头都存在。
+- 符号体系：花体=集合/图，粗体=向量，`\mathrm`=算子名，范数统一 `\|·\|`。
+- 公式引用三种流派并存（`\eqref` / 文本 `(n)` / `\ref{eq:}`），规则是**篇内统一**，不是全组统一某一种。
+
+这些是**语料内观察**，不构成唯一作者签名，也不构成普适学术规范；合著、题材与编辑加工都会影响措辞。模板是结构综合，不是原文引用。
+
+## 边界
+
+- 句子长度与重复次数阈值是**编辑启发式**，不是学习得到的定律。
+- 被动语态、技术等价性、引用支撑、论证质量必须人工或 LLM 复核，linter 无法判定。
+- 不得声称超出当前证据的溯源或实证支持。
